@@ -9,9 +9,8 @@ FROM eclipse-temurin:17
 # Establece variables de entorno
 #ENV SPRING_DATASOURCE_URL=$url \
  #   SPRING_DATASOURCE_USERADMIN=$user \
-  #  SPRING_DATASOURCE_PASWORD=$pasword
+ #   SPRING_DATASOURCE_PASWORD=$pasword
 
-RUN cat .env
 
 ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-clq9j09jvg7s73e4rbgg-a.oregon-postgres.render.com/platzi_market_vyyw \
     SPRING_DATASOURCE_USERADMIN=admin \
