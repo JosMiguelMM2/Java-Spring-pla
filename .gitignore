@@ -42,4 +42,4 @@ out/
 ### VS Code ###
 .vscode/
 
-src/.env
+.env

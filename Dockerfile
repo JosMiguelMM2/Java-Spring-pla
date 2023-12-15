@@ -1,5 +1,5 @@
 # Usa una imagen base con Java
-FROM eclipse-temurin:17
+FROM eclipse-temurin:21
 
 # Argumentos de construcción
 #ARG url
@@ -10,7 +10,6 @@ FROM eclipse-temurin:17
 #ENV SPRING_DATASOURCE_URL=$url \
  #   SPRING_DATASOURCE_USERADMIN=$user \
  #   SPRING_DATASOURCE_PASWORD=$pasword
-
 
 ENV SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-clq9j09jvg7s73e4rbgg-a.oregon-postgres.render.com/platzi_market_vyyw \
     SPRING_DATASOURCE_USERADMIN=admin \
